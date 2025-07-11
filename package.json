@@ -2,13 +2,13 @@
   "name": "creative-portfolio",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://rahafj96.github.io/my-portfolio",
+  "homepage": "https://RahafJ96.github.io/my-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "SET PATH=C:\\Program Files\\Git\\bin;%PATH%&& gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
