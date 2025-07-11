@@ -28,7 +28,7 @@ export default function Design() {
 
   const filteredDesigns =
     selectedCategory === "All"
-      ? shuffledDesigns.slice(0, 10)
+      ? shuffledDesigns.slice(0, 12)
       : shuffledDesigns.filter((item) => item.category === selectedCategory);
 
   return (
@@ -76,7 +76,7 @@ export default function Design() {
           <a href={item.link} target="_blank" rel="noopener noreferrer">
             <motion.div
               key={item.title}
-              className="relative overflow-hidden rounded-2xl group cursor-pointer "
+              className="relative overflow-hidden rounded-2xl group cursor-pointer my-1"
               whileHover={{ scale: 1.02 }}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
