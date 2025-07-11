@@ -71,12 +71,12 @@ export default function Design() {
         ))}
       </motion.div>
 
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 max-w-6xl mx-auto space-y-4">
+      <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 max-w-6xl mx-auto space-y-5">
         {filteredDesigns?.map((item, i) => (
           <a href={item.link} target="_blank" rel="noopener noreferrer">
             <motion.div
               key={item.title}
-              className="relative overflow-hidden rounded-2xl group cursor-pointer"
+              className="relative overflow-hidden rounded-2xl group cursor-pointer "
               whileHover={{ scale: 1.02 }}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
