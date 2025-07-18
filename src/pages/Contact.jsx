@@ -21,7 +21,7 @@ export default function Contact() {
         Let’s Connect 🤍
       </motion.h2>
 
-      <div className="flex flex-col items-center gap-10 text-lg">
+      <div className="flex items-center sm:flex-col gap-10 text-lg">
         {/* First Row: Email & LinkedIn */}
         <div className="flex flex-col md:flex-row gap-10">
           <motion.a
