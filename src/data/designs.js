@@ -86,7 +86,7 @@ const designs = [
   {
     title: "TwinsChalet",
     image: "assets/logos/TwinsChalet-logo.jpg",
-    link: "#",
+    link: "https://www.instagram.com/twins__chalet/",
     category: "Logos",
   },
   {
