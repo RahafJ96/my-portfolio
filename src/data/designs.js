@@ -12,6 +12,24 @@ const designs = [
     category: "Others",
   },
   {
+    title: "Camera",
+    image: "assets/camera.jpg",
+    link: "#",
+    category: "Others",
+  },
+  {
+    title: "Scare Crow",
+    image: "assets/characters/scarecrow.jpg",
+    link: "#",
+    category: "Characters",
+  },
+  {
+    title: "Cute Baby Franklin",
+    image: "assets/characters/cutebabyfranklin.jpg",
+    link: "#",
+    category: "Characters",
+  },
+  {
     title: "Fighting man",
     image: "/assets/characters/man.png",
     link: "https://freepik.com/free-vector/flat-game-design-character-design-vector-illustration_77056441.htm?_gl=1*1ndvlps*_gcl_au*MjA5NjU4NDA5NS4xNzUxOTc0Mzcx*_ga*MTMyNDA5Nzg5OS4xNzUxOTc0MzA3*_ga_PK4FYLJC1D*czE3NTIyNDE5OTIkbzYkZzEkdDE3NTIyNDIzMjAkajM2JGwwJGgw",
@@ -40,6 +58,36 @@ const designs = [
     image: "/assets/vectors/coffeemachine.png",
     link: "https://freepik.com/free-vector/coffee-maker-illustration-design_56040714.htm?_gl=1*v72f65*_gcl_au*MjA5NjU4NDA5NS4xNzUxOTc0Mzcx*_ga*MTMyNDA5Nzg5OS4xNzUxOTc0MzA3*_ga_PK4FYLJC1D*czE3NTIyNDkxODkkbzckZzEkdDE3NTIyNDkyNDAkajkkbDAkaDA.",
     category: "Vectors",
+  },
+  {
+    title: "Pizza Shop",
+    image: "assets/vectors/pizzashop.jpg",
+    link: "#",
+    category: "Vectors",
+  },
+  {
+    title: "Paper Cutout Illustration",
+    image: "assets/vectors/papercutoutillustration.jpg",
+    link: "#",
+    category: "Vectors",
+  },
+  {
+    title: "Marlboro Pack",
+    image: "assets/vectors/marlboropack.jpg",
+    link: "#",
+    category: "Vectors",
+  },
+  {
+    title: "Lab tube",
+    image: "assets/vectors/labtube.jpg",
+    link: "#",
+    category: "Vectors",
+  },
+  {
+    title: "TwinsChalet",
+    image: "assets/logos/TwinsChalet-logo.jpg",
+    link: "#",
+    category: "Logos",
   },
   {
     title: "Halloween Cute Witch Pumpkin vector",

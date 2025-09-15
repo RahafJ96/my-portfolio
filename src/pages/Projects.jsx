@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import projects from "../data/projects";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
 
 export default function Projects() {
   return (
@@ -49,15 +51,16 @@ function ProjectCard({ title, description, screenshots, link }) {
         />
         <button
           onClick={prev}
-          className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/60 rounded-full p-2 hover:bg-white/90"
+          className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/70 text-gray-700 rounded-full p-3 shadow-md hover:bg-white hover:scale-110 transition-transform"
         >
-          ⬅
+          <MdArrowBackIosNew size={20} />
         </button>
+
         <button
           onClick={next}
-          className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/60 rounded-full p-2 hover:bg-white/90"
+          className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/70 text-gray-700 rounded-full p-3 shadow-md hover:bg-white hover:scale-110 transition-transform"
         >
-          ➡
+          <MdArrowForwardIos size={20} />
         </button>
       </div>
 
